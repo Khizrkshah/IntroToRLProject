@@ -1,0 +1,65 @@
+{
+    "EscapeTheMaze": {
+        "checkpoints": [
+            {
+                "steps": 1000026,
+                "file_path": "results\\ppo\\EscapeTheMaze\\EscapeTheMaze-1000026.onnx",
+                "reward": null,
+                "creation_time": 1668622614.138688,
+                "auxillary_file_paths": [
+                    "results\\ppo\\EscapeTheMaze\\EscapeTheMaze-1000026.pt"
+                ]
+            },
+            {
+                "steps": 1000026,
+                "file_path": "results\\ppo\\EscapeTheMaze\\EscapeTheMaze-1000026.onnx",
+                "reward": null,
+                "creation_time": 1668622639.2272182,
+                "auxillary_file_paths": [
+                    "results\\ppo\\EscapeTheMaze\\EscapeTheMaze-1000026.pt"
+                ]
+            },
+            {
+                "steps": 1000026,
+                "file_path": "results\\ppo\\EscapeTheMaze\\EscapeTheMaze-1000026.onnx",
+                "reward": null,
+                "creation_time": 1668622738.115388,
+                "auxillary_file_paths": [
+                    "results\\ppo\\EscapeTheMaze\\EscapeTheMaze-1000026.pt"
+                ]
+            },
+            {
+                "steps": 1155286,
+                "file_path": "results\\ppo\\EscapeTheMaze\\EscapeTheMaze-1155286.onnx",
+                "reward": 15.933335622151693,
+                "creation_time": 1668691617.4861944,
+                "auxillary_file_paths": [
+                    "results\\ppo\\EscapeTheMaze\\EscapeTheMaze-1155286.pt"
+                ]
+            },
+            {
+                "steps": 1241433,
+                "file_path": "results\\ppo\\EscapeTheMaze\\EscapeTheMaze-1241433.onnx",
+                "reward": 19.633337179819744,
+                "creation_time": 1668691949.029816,
+                "auxillary_file_paths": [
+                    "results\\ppo\\EscapeTheMaze\\EscapeTheMaze-1241433.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1241433,
+            "file_path": "results\\ppo\\EscapeTheMaze.onnx",
+            "reward": 19.633337179819744,
+            "creation_time": 1668691949.029816,
+            "auxillary_file_paths": [
+                "results\\ppo\\EscapeTheMaze\\EscapeTheMaze-1241433.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

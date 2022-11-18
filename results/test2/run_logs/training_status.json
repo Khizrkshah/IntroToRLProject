@@ -1,0 +1,38 @@
+{
+    "EscapeTheMaze": {
+        "checkpoints": [
+            {
+                "steps": 14618,
+                "file_path": "results\\test2\\EscapeTheMaze\\EscapeTheMaze-14618.onnx",
+                "reward": -10.0,
+                "creation_time": 1668702881.920413,
+                "auxillary_file_paths": [
+                    "results\\test2\\EscapeTheMaze\\EscapeTheMaze-14618.pt"
+                ]
+            },
+            {
+                "steps": 272415,
+                "file_path": "results\\test2\\EscapeTheMaze\\EscapeTheMaze-272415.onnx",
+                "reward": -10.0,
+                "creation_time": 1668703724.6353755,
+                "auxillary_file_paths": [
+                    "results\\test2\\EscapeTheMaze\\EscapeTheMaze-272415.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 272415,
+            "file_path": "results\\test2\\EscapeTheMaze.onnx",
+            "reward": -10.0,
+            "creation_time": 1668703724.6353755,
+            "auxillary_file_paths": [
+                "results\\test2\\EscapeTheMaze\\EscapeTheMaze-272415.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
