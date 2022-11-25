@@ -391,7 +391,7 @@ MonoBehaviour:
   speed: 50
   jumpAmount: 10
   currentdistance: 0
-  door: {fileID: 3680277385645352241}
+  exit: {fileID: 5746423448756842436}
   key: {fileID: 6026529398007193200, guid: c822ce843e0be1a4ab28631981403401, type: 3}
   spawner1: {fileID: 6720048110848639984}
   spawner2: {fileID: 8241384194634903162}

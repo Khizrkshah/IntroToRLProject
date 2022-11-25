@@ -14,7 +14,7 @@ public class My_Agent : Agent
     //private Vector3 startingPosition = new Vector3(3.75f,0.958000064f,-4.19999981f);
   private Vector3 startingPosition = new Vector3(3.75f,1.20000005f,-4.19999981f);
   public float currentdistance = 0.0f;
-  [SerializeField] Transform door;
+    public GameObject exit;
     float reward = 0.0f;
     public GameObject key;
     private GameObject skey;
@@ -37,26 +37,33 @@ public class My_Agent : Agent
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        rend = GameObject.Find("Exit").GetComponent<Renderer>();
+        rend = exit.GetComponent<Renderer>();
         rend.enabled = true;
         rend.sharedMaterial = material[0];
     }
 
     public override void OnEpisodeBegin() {
         transform.localPosition = startingPosition;
+        Destroy(skey);
         rend.sharedMaterial = material[0];
         foundKey = false;
         currentdistance = 0.0f;
         int spawner = Random.Range(1, 4);
         if(spawner == 1)
         {
-             skey = Instantiate(key, spawner1.transform.position, Quaternion.identity);
-        }else if(spawner == 2)
+             skey = Instantiate(key, spawner1.transform);
+
+        }
+        else if(spawner == 2)
         {
-             skey = Instantiate(key, spawner2.transform.position, Quaternion.identity);
-        }else if(spawner == 3)
+            skey = Instantiate(key, spawner2.transform);
+            
+        }
+        else if(spawner == 3)
         {
-             skey = Instantiate(key, spawner3.transform.position, Quaternion.identity);
+
+            skey = Instantiate(key, spawner3.transform);
+
         }
 
     }
@@ -140,7 +147,7 @@ public class My_Agent : Agent
         {
           AddReward(10.0f);
             reward += 10;
-            Debug.Log("reward = " + reward);
+            Debug.Log("Solved");
             Destroy(skey);
             EndEpisode();
         }

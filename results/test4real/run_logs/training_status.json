@@ -1,0 +1,65 @@
+{
+    "EscapeTheMaze": {
+        "checkpoints": [
+            {
+                "steps": 44663678,
+                "file_path": "results\\test4real\\EscapeTheMaze\\EscapeTheMaze-44663678.onnx",
+                "reward": -0.9090909090909091,
+                "creation_time": 1669303776.0390735,
+                "auxillary_file_paths": [
+                    "results\\test4real\\EscapeTheMaze\\EscapeTheMaze-44663678.pt"
+                ]
+            },
+            {
+                "steps": 44754703,
+                "file_path": "results\\test4real\\EscapeTheMaze\\EscapeTheMaze-44754703.onnx",
+                "reward": -0.9259259259259259,
+                "creation_time": 1669304401.0942755,
+                "auxillary_file_paths": [
+                    "results\\test4real\\EscapeTheMaze\\EscapeTheMaze-44754703.pt"
+                ]
+            },
+            {
+                "steps": 44792137,
+                "file_path": "results\\test4real\\EscapeTheMaze\\EscapeTheMaze-44792137.onnx",
+                "reward": -3.3333333333333335,
+                "creation_time": 1669304580.579045,
+                "auxillary_file_paths": [
+                    "results\\test4real\\EscapeTheMaze\\EscapeTheMaze-44792137.pt"
+                ]
+            },
+            {
+                "steps": 0,
+                "file_path": "results\\test4real\\EscapeTheMaze\\EscapeTheMaze-0.onnx",
+                "reward": null,
+                "creation_time": 1669311681.9135964,
+                "auxillary_file_paths": [
+                    "results\\test4real\\EscapeTheMaze\\EscapeTheMaze-0.pt"
+                ]
+            },
+            {
+                "steps": 526,
+                "file_path": "results\\test4real\\EscapeTheMaze\\EscapeTheMaze-526.onnx",
+                "reward": -10.0,
+                "creation_time": 1669311762.8800786,
+                "auxillary_file_paths": [
+                    "results\\test4real\\EscapeTheMaze\\EscapeTheMaze-526.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 526,
+            "file_path": "results\\test4real\\EscapeTheMaze.onnx",
+            "reward": -10.0,
+            "creation_time": 1669311762.8800786,
+            "auxillary_file_paths": [
+                "results\\test4real\\EscapeTheMaze\\EscapeTheMaze-526.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
