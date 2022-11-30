@@ -1,0 +1,65 @@
+{
+    "EscapeTheMaze": {
+        "checkpoints": [
+            {
+                "steps": 10000047,
+                "file_path": "results\\test4\\EscapeTheMaze\\EscapeTheMaze-10000047.onnx",
+                "reward": -2.5757575757575757,
+                "creation_time": 1668991619.7931354,
+                "auxillary_file_paths": [
+                    "results\\test4\\EscapeTheMaze\\EscapeTheMaze-10000047.pt"
+                ]
+            },
+            {
+                "steps": 10000047,
+                "file_path": "results\\test4\\EscapeTheMaze\\EscapeTheMaze-10000047.onnx",
+                "reward": null,
+                "creation_time": 1669041558.8499022,
+                "auxillary_file_paths": [
+                    "results\\test4\\EscapeTheMaze\\EscapeTheMaze-10000047.pt"
+                ]
+            },
+            {
+                "steps": 0,
+                "file_path": "results\\test4\\EscapeTheMaze\\EscapeTheMaze-0.onnx",
+                "reward": null,
+                "creation_time": 1669300876.335691,
+                "auxillary_file_paths": [
+                    "results\\test4\\EscapeTheMaze\\EscapeTheMaze-0.pt"
+                ]
+            },
+            {
+                "steps": 28627,
+                "file_path": "results\\test4\\EscapeTheMaze\\EscapeTheMaze-28627.onnx",
+                "reward": -10.0,
+                "creation_time": 1669300986.6738362,
+                "auxillary_file_paths": [
+                    "results\\test4\\EscapeTheMaze\\EscapeTheMaze-28627.pt"
+                ]
+            },
+            {
+                "steps": 42425,
+                "file_path": "results\\test4\\EscapeTheMaze\\EscapeTheMaze-42425.onnx",
+                "reward": -10.0,
+                "creation_time": 1669301483.7227762,
+                "auxillary_file_paths": [
+                    "results\\test4\\EscapeTheMaze\\EscapeTheMaze-42425.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 42425,
+            "file_path": "results\\test4\\EscapeTheMaze.onnx",
+            "reward": -10.0,
+            "creation_time": 1669301483.7227762,
+            "auxillary_file_paths": [
+                "results\\test4\\EscapeTheMaze\\EscapeTheMaze-42425.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

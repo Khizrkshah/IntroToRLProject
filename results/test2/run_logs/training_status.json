@@ -18,15 +18,24 @@
                 "auxillary_file_paths": [
                     "results\\test2\\EscapeTheMaze\\EscapeTheMaze-272415.pt"
                 ]
+            },
+            {
+                "steps": 399087,
+                "file_path": "results\\test2\\EscapeTheMaze\\EscapeTheMaze-399087.onnx",
+                "reward": -8.5,
+                "creation_time": 1669301354.4095318,
+                "auxillary_file_paths": [
+                    "results\\test2\\EscapeTheMaze\\EscapeTheMaze-399087.pt"
+                ]
             }
         ],
         "final_checkpoint": {
-            "steps": 272415,
+            "steps": 399087,
             "file_path": "results\\test2\\EscapeTheMaze.onnx",
-            "reward": -10.0,
-            "creation_time": 1668703724.6353755,
+            "reward": -8.5,
+            "creation_time": 1669301354.4095318,
             "auxillary_file_paths": [
-                "results\\test2\\EscapeTheMaze\\EscapeTheMaze-272415.pt"
+                "results\\test2\\EscapeTheMaze\\EscapeTheMaze-399087.pt"
             ]
         }
     },
